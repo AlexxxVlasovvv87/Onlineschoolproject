@@ -1,13 +1,7 @@
 package com.example.onlineschoolrudyklsproject.Presentation.Repository.Room;
 
 import android.app.Application;
-import android.app.Application;
-import android.util.Log;
-import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LiveData;
-import androidx.lifecycle.MutableLiveData;
-
-import com.example.onlineschoolrudyklsproject.Domain.Model.Lesson;
 import com.example.onlineschoolrudyklsproject.Domain.Model.LessonDTO;
 import com.example.onlineschoolrudyklsproject.Presentation.Repository.Room.DAO.LessonDAO;
 
@@ -27,19 +21,16 @@ public class LessonRepository {
         return mAllParties;
     }
 
-    public void addLesson(Lesson Lesson) {
-        LessonDTO dto = LessonDTO.convertFromLesson(Lesson);
+    public void addLesson(LessonDTO lesson) {
 
         LessonRoomDatabase.databaseWriteExecutor.execute(() -> {
-            okLessonDAO.addLesson(dto);
+            okLessonDAO.addLesson(lesson);
         });
     }
 
-    public void deleteLesson(Lesson Lesson) {
-        LessonDTO dto = LessonDTO.convertFromLesson(Lesson);
-
+    public void deleteLesson(LessonDTO lesson) {
         LessonRoomDatabase.databaseWriteExecutor.execute(() -> {
-            okLessonDAO.deleteLesson(dto);
+            okLessonDAO.deleteLesson(lesson);
         });
     }
 }

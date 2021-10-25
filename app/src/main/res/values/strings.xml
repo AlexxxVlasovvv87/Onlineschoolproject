@@ -9,4 +9,12 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="people">people</string>
+    <string name="add_lesson">Add lesson</string>
+    <string name="enter_lesson_name">Enter lesson name</string>
+    <string name="grade">Grade</string>
+    <string name="value">value</string>
+    <string name="enter_description">Enter description</string>
+    <string name="save_lesson">Save lesson</string>
+    <string name="todo">TODO</string>
 </resources>

@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/content_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/fragment_first.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/fragment_second.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/lesson_element.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/lesson_list_fragment.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/layout/new_lesson_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/leone/Desktop/OnlineschoolRudykLS/app/src/main/res/menu/menu_main.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
@@ -15,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1793478260869565" />
+      </ProjectState>
+    </option>
   </component>
 </project>
